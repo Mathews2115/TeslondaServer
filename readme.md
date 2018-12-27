@@ -12,6 +12,9 @@ This comes preloaded with a version of the Teslonda Dash ready to rumble.
 ## Overview
 This launches a webserver that will serve up the Front-end dash content as well as launch a Node app that will listen to CAN from a HSR (look up Jason Hughes HSR) Controller.
 
+## Web Socket packets
+It's imporant to group data up in "frame" packets;  deliver relevant data every 16ms (equilivant to 60fps) as to not drown the front-end in data; the Raspberry Pi 3 is pretty dang capable but when a busy clunky frontend like a chromium web-app receives socket data, a lot happens each time data comes in, and will quickly bog things down if it isn't regulated.   
+
 ## General
 * The front-end web content is stored in `public/dist`.  The source can be found at https://github.com/Mathews2115/TeslondaDash.
 * `npm run vcan_server` - to run virtual-CAN and test server
