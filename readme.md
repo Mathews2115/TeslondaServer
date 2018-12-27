@@ -27,8 +27,8 @@ It's imporant to group data up in "frame" packets;  deliver relevant data every 
 
 # General
 * The front-end web content is stored in `public/dist`.  The source can be found at https://github.com/Mathews2115/TeslondaDash.
-* `npm run vcan_server` - auto installs interfaces and run virtual-CAN and test server
-* `npm run can_server` - auto installs interfaces and runs production CAN server
+* `npm run vcan_server` - virtual-CAN and test server
+* `npm run can_server` -  CAN server
 * [Teslonda Front-end](https://github.com/Mathews2115/TeslondaDash) served on`localhost:3333`
 * Websocket Server listening to `localhost:4000`
 
