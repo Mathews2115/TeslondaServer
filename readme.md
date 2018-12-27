@@ -19,6 +19,12 @@ This launches a webserver that will serve up the Front-end dash content as well 
 ## Web Socket packets
 It's imporant to group data up in "frame" packets;  deliver relevant data every 16ms (equilivant to 60fps) as to not drown the front-end in data; the Raspberry Pi 3 is pretty dang capable but when a busy clunky frontend like a chromium web-app receives socket data, a lot happens each time data comes in, and will quickly bog things down if it isn't regulated.   
 
+# Install
+* on your raspberry pi
+1. copy all contents to `can-server` 
+2. Prepare Dev enviroment on RPI: run `./RPI_system/prepare_dev.sh`
+3. Or prepare production environment: run `./RPI_system/prepare_production.sh`
+
 # General
 * The front-end web content is stored in `public/dist`.  The source can be found at https://github.com/Mathews2115/TeslondaDash.
 * `npm run vcan_server` - auto installs interfaces and run virtual-CAN and test server
