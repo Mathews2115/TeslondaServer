@@ -4,9 +4,9 @@
 - [RaspberryPi setup](https://gist.github.com/Mathews2115/ed3dbd8623ee815a7bed363dbc7c73a6)
 
 ## Workflow
-- 1. Compile [Teslonda Front-end](https://github.com/Mathews2115/TeslondaDash)
-- 2. Copy to the `public/dist` directory on the server of the Raspberry Pi3
-- 3. Run the server!
+1. Compile [Teslonda Front-end](https://github.com/Mathews2115/TeslondaDash)
+2. Copy to the `public/dist` directory on the server of the Raspberry Pi3
+3. Run the server!
 
 ## Quick note:
 This was a pet project that was made in rapid prototype fashion due to massive time constraints;  there are no tests, there are plenty of style guide violations as this was my first NodeJs project.  This was uploaded without curation so I apologize for the possible curse words, bugs and bad form you might come across.  There are no hard-tabs though, so there is that.
