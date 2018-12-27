@@ -1,0 +1,21 @@
+{
+  "name": "teslonda-servers",
+  "description": "RPI3 CAN interface with web socket server and web server",
+  "version": "2.5.0",
+  "private": true,
+  "scripts": {
+    "init_and_start_vcan_server": "./RPI_system/start_vcan.sh && NODE_ENV=production CHANNEL=vcan0 node canserver.js & npm run web_server",
+    "start_vcan_server": "NODE_ENV=production CHANNEL=vcan0 node canserver.js & npm run web_server",
+    "can_server": "NODE_ENV=production CHANNEL=can0 node canserver.js & npm run web_server",
+    "test_server": "NODE_ENV=production CHANNEL=vcan0 node testCANserver.js",
+    "web_server": "NODE_ENV=production node ./bin/www"
+  },
+  "author": "Michael J Mathews II",
+  "dependencies": {
+    "csv-parse": "^2.4.0",
+    "event-stream": "^3.3.4",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4",
+    "socketcan": "^2.2.2"
+  }
+}
