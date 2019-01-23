@@ -34,7 +34,7 @@ It's imporant to group data up in "frame" packets;  deliver relevant data every 
 3. Or prepare production environment: run `./RPI_system/prepare_production.sh`
 
 # General
-* The front-end web content is stored in `public/dist`.  The source can be found at https://github.com/Mathews2115/TeslondaDash.
+* The front-end web content ([Teslonda Front-end](https://github.com/Mathews2115/TeslondaDash)) is stored in `public/dist`.  
 * `npm run vcan_server` - virtual-CAN and test server
 * `npm run can_server` -  CAN server
 * [Teslonda Front-end](https://github.com/Mathews2115/TeslondaDash) served on`localhost:3333`
