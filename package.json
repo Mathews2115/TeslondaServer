@@ -12,7 +12,7 @@
   },
   "author": "Michael J Mathews II",
   "dependencies": {
-    "csv-parse": "^2.4.0",
+    "csv-parse": "^4.9.0",
     "event-stream": "3.3.4",
     "express": "^4.16.2",
     "socket.io": "^2.0.4",
