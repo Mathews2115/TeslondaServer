@@ -1,4 +1,6 @@
-# TODO: actually get a proper install instruction set
+# Project Finished - moving on to 
+* https://github.com/Mathews2115/AutoDashBackEnd
+* https://github.com/Mathews2115/AutoDashFrontEnd
 
 # Teslonda Server App
 The Teslonda Dash consists of a two [RaspberryPi 3s](https://gist.github.com/Mathews2115/ed3dbd8623ee815a7bed363dbc7c73a6) running Raspberian Lite, [networked](https://gist.github.com/Mathews2115/3be0b1173be222e73ba4d8181558d409) to each other via Ethernet. 
